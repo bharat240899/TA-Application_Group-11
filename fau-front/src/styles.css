@@ -1,0 +1,201 @@
+.jumbotron {
+    width: 30wh;
+    height: 30vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+/* cart badge */
+
+.cart-badge,
+
+.cart-badge:hover {
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 12px;
+    font-style: italic;
+    background: #000;
+    cursor: pointer;
+}
+.badge{
+    cursor: pointer;
+}
+ 
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+ 
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+ 
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.name,.card-header{
+    background: indigo;
+    color:#fff;
+    font-weight:bold;
+}
+
+/* black shade form 10-1 */
+.black-10 {
+    background: #f2f2f2;
+}
+.black-9 {
+    background: #e6e6e6;
+}
+.black-8 {
+    background: #d9d9d9;
+}
+.black-7 {
+    background: #cccccc;
+}
+.black-6 {
+    background: #bfbfbf;
+}
+.black-5 {
+    background: #b3b3b3;
+}
+.shadow {
+    box-shadow: 0 0 3px rgb(53 64 78 / 20%) !important;
+}
+.rounded {
+    border-radius: 5px !important;
+}
+.bg-light {
+    background-color: #f7f8fa !important;
+}
+/* .bg-primary, .btn-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .badge-primary, .nav-pills .nav-link.active, .pagination .active a, .custom-control-input:checked ~ .custom-control-label:before, #preloader #status .spinner > div, .social-icon li a:hover, .back-to-top:hover, .back-to-home a, ::selection, #topnav .navbar-toggle.open span:hover, .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots.clickable .owl-dot:hover span, .watch-video a .play-icon-circle, .sidebar .widget .tagcloud > a:hover, .flatpickr-day.selected, .flatpickr-day.selected:hover, .tns-nav button.tns-nav-active, .form-check-input.form-check-input:checked {
+    background-color: #6dc77a !important;
+} */
+
+.badge {
+    padding: 5px 8px;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+/* .btn-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active {
+    box-shadow: 0 3px 7px rgb(109 199 122 / 50%) !important;
+}
+.btn-primary, .btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .bg-soft-primary .border, .alert-primary, .alert-outline-primary, .badge-outline-primary, .nav-pills .nav-link.active, .pagination .active a, .form-group .form-control:focus, .form-group .form-control.active, .custom-control-input:checked ~ .custom-control-label:before, .custom-control-input:focus ~ .custom-control-label::before, .form-control:focus, .social-icon li a:hover, #topnav .has-submenu.active.active .menu-arrow, #topnav.scroll .navigation-menu > li:hover > .menu-arrow, #topnav.scroll .navigation-menu > li.active > .menu-arrow, #topnav .navigation-menu > li:hover > .menu-arrow, .flatpickr-day.selected, .flatpickr-day.selected:hover, .form-check-input:focus, .form-check-input.form-check-input:checked, .container-filter li.active, .container-filter li:hover {
+    border-color: #6dc77a !important;
+}
+.bg-primary, .btn-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .badge-primary, .nav-pills .nav-link.active, .pagination .active a, .custom-control-input:checked ~ .custom-control-label:before, #preloader #status .spinner > div, .social-icon li a:hover, .back-to-top:hover, .back-to-home a, ::selection, #topnav .navbar-toggle.open span:hover, .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots.clickable .owl-dot:hover span, .watch-video a .play-icon-circle, .sidebar .widget .tagcloud > a:hover, .flatpickr-day.selected, .flatpickr-day.selected:hover, .tns-nav button.tns-nav-active, .form-check-input.form-check-input:checked {
+    background-color: #6dc77a !important;
+} */
+.btn {
+    padding: 8px 20px;
+    outline: none;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+    font-weight: 600;
+    border-radius: 5px;
+}
+/* .container .btn-primary {
+    background-color: #6dc77a !important;
+    border: 1px solid #6dc77a !important;
+    color: #fff !important;
+    box-shadow: 0 3px 7px rgb(109 199 122 / 50%);
+} */
+
+a {
+text-decoration:none;    
+}
+.success{
+    background: #E8FCFF;
+}
+.footer{
+    background: #07171d;
+}
+.success-icon{
+    width:4rem;
+    height:4rem;
+}
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    width: 75%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.main-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-content li {
+    margin: 8px 0;
+    font-size: 1.2em;
+}
